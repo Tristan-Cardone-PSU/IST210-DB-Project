@@ -1,0 +1,15 @@
+SHODAN KARATE AZURE SQL LOGIN
+=============================
+
+Server: cardone-server.database.windows.net
+Port: 1433
+Database: Karate-School
+Authentication: SQL Server authentication
+Username: CloudSA741c4a1f
+Password: Upj7wJ6Wu&
+Encrypt connection: Yes
+Trust server certificate: No
+
+Enter these values on the app's login screen. The app connects to the Azure SQL database through its local PowerShell bridge at http://localhost:8080; run start-server.bat first.
+
+The server login was copied from the connection details previously stored in this project. The database name above follows the karate schema file. If the password has been rotated, or the karate tables are in a differently named database, update this file and use the current Azure SQL values.

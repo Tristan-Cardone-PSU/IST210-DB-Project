@@ -1,0 +1,5 @@
+.record-actions{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.record-actions .button{padding:7px 10px;font-size:11px}
+.class-card .record-actions{margin-top:14px}
+.button.danger{color:#934238;border-color:#e7c9c4}
+.button.danger:hover{background:#fcf2f0;border-color:#d6aaa3}
